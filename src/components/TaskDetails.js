@@ -6,7 +6,7 @@ const TaskDetails = ({ task }) => {
   const { dispatch } = useContext(TaskContext);
   return (
     <li onClick={() => dispatch({ type: 'REMOVE_TASK', id: task.id })}>
-      <div className="task">{task.task}</div>
+      <div className="task fs-115">{task.task}</div>
     </li>
   );
 }

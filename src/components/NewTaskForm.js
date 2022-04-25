@@ -26,9 +26,10 @@ const NewTaskForm = () => {
           placeholder="Task..."
           value={task}
           onChange={(e) => setTask(e.target.value)}
+          className="fs-115"
           required
         />
-        <input className="add" type="submit" value="Add" />
+        <input className="add fs-115" type="submit" value="Add" />
       </form>
     </div>
   );
